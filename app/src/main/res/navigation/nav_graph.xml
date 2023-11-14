@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/baileFragment">
+
+    <fragment
+        android:id="@+id/baileFragment"
+        android:name="com.example.datavivapractica.BaileFragment"
+        android:label="fragment_baile"
+        tools:layout="@layout/fragment_baile" />
+</navigation>
